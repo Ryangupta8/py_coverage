@@ -55,6 +55,7 @@
   <exec_depend>grid_map</exec_depend>
   <exec_depend>tools</exec_depend>
   <exec_depend>grid_based_sweep_coverage_path_planner</exec_depend>
+  <exec_depend>grid_map_lib</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
