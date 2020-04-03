@@ -13,10 +13,10 @@ import matplotlib as mpl
 from matplotlib.patches import Polygon, Rectangle, Circle
 import numpy as np
 import math
-from grid_map import GridMap
-from grid_based_sweep_coverage_path_planner import planning
+from py_coverage.grid_map import GridMap
+from py_coverage.grid_based_sweep_coverage_path_planner import planning
+from py_coverage.tools import define_polygon, polygon_contains_point
 import time
-from tools import define_polygon, polygon_contains_point
 
 fig,axes=plt.subplots(nrows=2,ncols=1,figsize=(10,20))
 
